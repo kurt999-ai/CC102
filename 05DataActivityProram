@@ -1,0 +1,63 @@
+#include <iostream>
+
+using namespace std;
+int main()
+{
+int a, b x;
+double sum, diff, prod, qou, rem;
+cout <<"Calculator programming\n";
+cout <<"1. Sum\n";
+cout <<"2. Diff\n";
+cout <<"3. Product\n";
+cout <<"4. qoutient\n";
+cout <<"5. Remainder\n";
+cout <<"************\n";
+cout <<"enter number 1-5\n";
+cin >> x;
+//switch for entering numbee 1-5;
+switch (x); {
+case 1://sum
+cout <<"Enter a first number:";
+cin >> a;
+cout <<"Enter a sec number:";
+cin >> b;
+sum = a + b;
+cout <<"The answer is" << sum;
+break;
+case 2: //differnce
+cout <<"Enter a first number:";
+cin >> a;
+cout <<"Enter a sec number:";
+cin >> b;
+diff= a-b;
+cout <<"The answer is:" << diff;
+break;
+case 3://produxt
+cout <<"Enter the first number:";
+cin >> a;
+cout <<"Enter the sec number:";
+cin >> b;
+diff= a * b;
+cout <<"The answer is:" << diff;
+break;
+case 4: //qoutient
+cout <<"Enter the first number:";
+cin >> a;
+cout <<"Enter the sec number:";
+cin >> b;
+qou= a / b;
+cout <<"The answer is:" << qou;
+break;
+case 5:// remainder
+cout <<"Enter the first number:";
+cin >> a;
+cout <<"Enter the sec number:";
+cin >> b;
+rem= a % b;
+cout <<"The answer is:" << rem;
+break;
+
+default:
+cout <<"ERROR!";
+}
+
