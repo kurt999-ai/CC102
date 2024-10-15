@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	float sugarPriceUSD, ricePricePound, sardinesPricePound, coffeePriceUSD, milkPriceUSD;
+	float sugarQty, riceQty, sardinesQty, coffeeQty, milkQty;
+	float USDtoPHP, PoundtoPHP, totalPHP;
+	float sugarPHP=25.00, ricePHP=56, sardinesPHP=24, coffeee=3.00, milkPHP=12.00;
+	
+	
+	cout <<"Item:\tsuga" <<endl;
+	cout <<"Price per item\t\t\t:" << sugarPHP "PHP" <<endl;
+	cout <<"Total cost per item\t\t\t:\n" << totalPHP "PHP" << endl;
+	cout <<"Enter Quantity purchased:\n";
+	cin >> sugarQty;
+	
+	cout <<"Item:\trice" <<endl;
+	cout <<"Price per item" << 
+	
+return 0;
+}
