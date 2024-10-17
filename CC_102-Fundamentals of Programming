@@ -1,0 +1,43 @@
+#include <iostream>
+
+using namespace std;
+
+int main() 
+{
+	float Nos=15.00, Noc=3.00, Nom=10.00, sugar, coffee, milk, current;
+	float dollars_to_peso, pound_to_peso, total_PHP;
+	
+	cout <<"Item:sugar\n";
+	cout <<"Price of sugar" << Nos <<"$\n";
+	cout <<"Quantity of sugar\t\t\t:\n";
+	cin >> sugar;
+	cout <<"Enter the current convertion(1$=PHP)\n";
+	cin >> current;
+	
+	total_PHP =(Nos*sugar*current);
+	
+	cout <<"***********************************************\n";
+	
+	cout <<"Item:coffee\n";
+	cout <<"Price of coffee" << Noc << "PHP\n";
+	cout <<"Quantity of coffee\t\t\t:\n";
+	cin >> coffee;
+	cout <<"Enter the current convertion(1PHP=PHP)\n";
+	cin >> current;
+	
+	total_PHP =(Noc*coffee*current);
+	
+	cout <<"**********************************************\n";
+	
+	cout <<"Item:milk\n";
+	cout <<"Price of Milk" << Nom << "pound\n";
+	cout <<"Quantity of milk\t\t\t:\n";
+	cin >> milk;
+	cout <<"Enter the current convertion(1pound=PHP)\n";
+	cin >> current;
+	
+	total_PHP =(Nom*milk*current);
+	return 0;
+}
+	
+		
